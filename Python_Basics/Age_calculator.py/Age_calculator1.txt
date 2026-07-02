@@ -1,0 +1,31 @@
+print("HELLO!!")
+print("Let's see how old are you!")
+d, m, y=input("Enter your birth(separated by space) date: month: year:").split()
+d2, m2, y2=input("Enter the current date: month: year:").split()
+
+d, m, y = int(d), int(m), int(y)
+d2, m2, y2 = int(d2), int(m2), int(y2)
+if d>=d2:
+    a=int(d-d2)
+else:
+    a=int(d2-d)
+if m>=m2:
+    b=int(m-m2)
+else:
+    b=int(m2-m)
+if y>=y2:
+    c=int(y-y2)
+else:
+    c=int(y2-y)
+print("You are",c,"years",b,"months and",a,"days old!")
+
+
+
+
+
+
+
+
+
+
+

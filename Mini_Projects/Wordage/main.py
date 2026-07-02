@@ -1,0 +1,7 @@
+print("Welcome to Wordage")
+i=input("Enter a passage:")
+char_count=len(i)-i.count(" ")
+w =i.split()
+print("Total char:",len(i))
+print("Total letters:",char_count)
+print("Total words:",len(w))
